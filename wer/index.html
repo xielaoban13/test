@@ -31,17 +31,19 @@
     <div class="m-main">
 		<div class="player">
 			<a href="javascript:void(0)" rel="external nofollow" rel="external nofollow" id="js-play">
-				<img src="./img-two/开始.png" alt="" id="img1"/>
+				<img src="./img-one/开始.png" alt="" id="img1"/>
             </a>
 			<a href="javascript:void(0)" rel="external nofollow" rel="external nofollow" id="js-pause">
-				<img src="./img-two/暂停.png" alt="" id="img2"/>
+				<img src="./img-one/暂停.png" alt="" id="img2"/>
 			</a>
 			<div class="play-box">
 				<div class="left">
-					<p class="timeline"><span style=""></span></p>
-					<div class="info">
-						<button onclick="location.href='https://xielaoban13.github.io/test/'">嘟嘟嘟嘟</button>
-						<span class="timeshow">00:00</span>
+					
+					<div class="info" style="
+    top: 20px;
+">
+						<button id="myButton" onclick="location.href='https://photo.dreamzhm519.eu.org/'"></button>
+						
 					</div>
 				</div>
 			</div>
@@ -464,6 +466,24 @@
             padding: 0;
             background-color: #000000;
         }
+	          #myButton {
+  border-radius: 10px;
+  --un-gradient-from: rgba(56,189,248,var(--un-from-opacity, 1));
+  --un-gradient-to: rgba(56,189,248,0);
+  --un-gradient-stops: rgb(207 232 244), rgb(162 190 181);
+  --un-gradient-to: rgba(5,150,105,var(--un-to-opacity, 1));
+  --un-gradient-shape: to right;
+  --un-gradient: var(--un-gradient-shape), var(--un-gradient-stops);
+  background-image: linear-gradient(var(--un-gradient));
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 3;
+  line-height: 2rem;
+  font-weight: 800;
+  color: transparent;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
     </style>
 </body>
 
