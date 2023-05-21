@@ -42,7 +42,7 @@
 					<div class="info" style="
     top: 20px;
 ">
-						<button id="myButton" onclick="location.href='wer/index.html'">身是菩提树，心如明镜台，时时勤拂拭，勿使惹尘埃。</button>
+						<button id="myButton" onclick="location.href='wer/index.html'"></button>
 						
 					</div>
 				</div>
@@ -467,6 +467,23 @@
             padding: 0;
             background-color: #000000;
         }
+	    #myButton {
+  border-radius: 10px;
+  --un-gradient-from: rgba(56,189,248,var(--un-from-opacity, 1));
+  --un-gradient-to: rgba(56,189,248,0);
+  --un-gradient-stops: rgb(207 232 244), rgb(162 190 181);
+  --un-gradient-to: rgba(5,150,105,var(--un-to-opacity, 1));
+  --un-gradient-shape: to right;
+  --un-gradient: var(--un-gradient-shape), var(--un-gradient-stops);
+  background-image: linear-gradient(var(--un-gradient));
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 3;
+  line-height: 2rem;
+  font-weight: 800;
+  color: transparent;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
     </style>
 </body>
 
