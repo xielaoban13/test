@@ -27,7 +27,6 @@
 </head>
 
 <body>
-    
     <div class="m-main">
 		<div class="player">
 			<a href="javascript:void(0)" rel="external nofollow" rel="external nofollow" id="js-play">
@@ -42,17 +41,19 @@
 					<div class="info" style="
     top: 20px;
 ">
-						<button id="myButton" onclick="location.href='wer/index.html'"></button>
+						<button id="myButton" onclick="location.href='wer/index.html'">身是菩提树，心如明镜台，时时勤拂拭，勿使惹尘埃。</button>
 						
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="video">
-			<video controls autoplay name="media" id="js-video"><source src="mp3/白月光与朱砂痣.mp3" type="video/mp4"></video>
+			<video controls autoplay name="media" id="js-video"><source src="./mp3/白月光与朱砂痣.mp3" type="video/mp4"></video>
 		</div>
 	</div>
+    
 </div>
+
     <div id="jsi-cherry-container" class="container">
         <div class="box">
             <ul class="minbox">
@@ -73,6 +74,7 @@
             </ol>
         </div>
     </div>
+    
     <script>
         $(function () {
             AudioControl('js-video');
@@ -449,7 +451,7 @@
             RENDERER.init();
         });
     </script>
-<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23myButton" defer></script>
     <style>
         html,
         body {
@@ -467,7 +469,7 @@
             padding: 0;
             background-color: #000000;
         }
-	    #myButton {
+        #myButton {
   border-radius: 10px;
   --un-gradient-from: rgba(56,189,248,var(--un-from-opacity, 1));
   --un-gradient-to: rgba(56,189,248,0);
@@ -484,6 +486,8 @@
   color: transparent;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
+
+
     </style>
 </body>
 
